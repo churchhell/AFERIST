@@ -154,7 +154,11 @@ hr {
     .prices{
         line-height: 1.2;
     }
-    .gallery{
-        margin-left: 80px;
+    .fourth{
+        margin-left: 25px;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
     }
 }
