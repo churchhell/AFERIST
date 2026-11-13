@@ -162,3 +162,9 @@ hr {
         margin: 0 auto;
     }
 }
+@media (max-width: 600px) {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
