@@ -151,4 +151,10 @@ hr {
     .gallery {
         grid-template-columns: 1fr;
     }
+    .prices{
+        line-height: 1.2;
+    }
+    .gallery{
+        margin-left: 80px;
+    }
 }
