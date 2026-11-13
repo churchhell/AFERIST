@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(фон.jpg);
+    color: #292a30;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 17px;
+}
+
+.container {
+    width: 100%;
+    max-width: 745px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 55px;
+    background-color: #e3eaff;
+
+    background-image:
+        linear-gradient(#cbddf9 4px, transparent 4px),
+        linear-gradient(90deg, #cbddf9 4px, transparent 4px);
+
+    background-size: 110px 110px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 56px;
+    font-weight: 900;
+    margin: 0 0 30px;
+    letter-spacing: -2px;
+}
+
+hr {
+    border: none;
+    border-top: 2px dotted #292a30;
+    margin: 25px 0;
+}
+
+.section-title {
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.button {
+    display: inline-block;
+    background: #292a30;
+    color: #dadcf1;
+    text-decoration: none;
+    padding: 12px 22px;
+    font-family: monospace;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #7c79a1;
+    transform: translateY(-3px);
+}
+
+.prices {
+    font-size: 30px;
+    line-height: 1.9;
+}
+
+.design-button {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.first{
+    width: 300px
+}
+.second{
+    width: 300px;
+}
+.third{
+    width: 260px;
+}
+.fourth{
+    width: 340px;
+    margin-left: -40px;
+}
+.gallery img {
+    object-fit: cover;
+    background: white;
+}
+
+.gallery img:hover {
+    opacity: 0.8;
+}
+
+.rules {
+    list-style: none;
+    padding-left: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.my-list li::before {
+    display: inline-block;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.dash::before {
+    content: "—";
+}
+
+.check::before {
+    content: "✓";
+}
+
+.cross::before {
+    content: "✗";
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .socials {
+        gap: 8px;
+    }
+
+    .button {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
