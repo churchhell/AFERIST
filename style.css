@@ -99,6 +99,7 @@ hr {
 .gallery img {
     object-fit: cover;
     background: white;
+    border-radius: 5%;
 }
 
 .gallery img:hover {
@@ -152,6 +153,8 @@ hr {
         grid-template-columns: 1fr;
     }
     .prices{
+        margin-top: 20px;
+        font-size: 20px;
         line-height: 1.2;
     }
     .fourth{
@@ -168,6 +171,6 @@ hr {
         margin: 0 auto;
     }
     .fourth{
-        margin-left: 15px;
+        margin-left: 10px;
     }
 }
